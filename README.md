@@ -1,7 +1,7 @@
 **1. Clone wallet sources**
 
 ```
-git clone https://github.com/cryptonotefoundation/cryptonotewallet.git
+git clone https://github.com/scordite/scorditewallet.git
 ```
 
 **2. Modify `CryptoNoteWallet.cmake`**
