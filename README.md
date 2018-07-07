@@ -15,7 +15,7 @@ set(CN_CURRENCY_TICKER "XSD")
 **3. Set symbolic link to coin sources at the same level as `src`. For example:**
 
 ```
-ln -s ../scordite scordite
+ln -s ../scordite cryptonote
 ```
 
 Alternative way is to create git submodule:
