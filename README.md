@@ -21,7 +21,7 @@ ln -s ../scordite cryptonote
 Alternative way is to create git submodule:
 
 ```
-git submodule add https://github.com/scordite/scordite.git scordite
+git submodule add https://github.com/scordite/scordite.git cryptonote
 ```
 
 Replace URL with git remote repository of your coin.
