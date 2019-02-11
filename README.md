@@ -4,7 +4,7 @@
 git clone https://github.com/scordite/scorditewallet.git
 ```
 
-**2. Create a git submodule at the same level as src. For example:**
+**2. Create a git submodule at the same level as src. (scorditewallet folder)**
 
 ```
 git submodule add https://github.com/scordite/scordite.git cryptonote
