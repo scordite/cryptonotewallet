@@ -41,14 +41,14 @@ set(CN_CURRENCY_TICKER "XSD")
 ```
 ln -s ../scordite cryptonote
 ```
-// Replace "../scordite" with your coin name.
+Replace "../scordite" with your coin name.
 
 *Alternative way is to create git submodule:
 
 ```
 git submodule add https://github.com/scordite/scordite.git cryptonote
 ```
-// Replace URL with git remote repository of your coin.
+Replace URL with git remote repository of your coin.
 
 **4. Build**
 
