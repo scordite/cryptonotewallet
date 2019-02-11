@@ -8,9 +8,9 @@ execute_process(COMMAND git log -1 --pretty=format:%h
 WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
 OUTPUT_VARIABLE GIT_REVISION)
 
-set(CRYPTONOTE_LIB cryptonote)				//refers to git submodule add https://github.com/scordite/scordite.git cryptonote
+set(CRYPTONOTE_LIB cryptonote)				
 
-include_directories(${CMAKE_BINARY_DIR}			//refers to git submodule add https://github.com/scordite/scordite.git cryptonote
+include_directories(${CMAKE_BINARY_DIR}			
     src
     cryptonote/external
     cryptonote/include
@@ -34,7 +34,7 @@ endif ()
 include_directories(${Boost_INCLUDE_DIRS})
 link_directories(${Boost_LIBRARY_DIRS})
 
-set(VERSION "")						//refers to git submodule add https://github.com/scordite/scordite.git cryptonote
+set(VERSION "")						
 configure_file("cryptonote/src/version.h.in" "version.h")
 configure_file("src/CryptoNoteWalletConfig.h.in" "CryptoNoteWalletConfig.h")
 
@@ -42,7 +42,7 @@ add_definitions(-DGIT_REVISION=\"${GIT_REVISION}\")
 
 set(CMAKE_AUTOMOC ON)
 					
-set(CRYPTONOTE_SOURCES					//refers to git submodule add https://github.com/scordite/scordite.git cryptonote
+set(CRYPTONOTE_SOURCES					
   cryptonote/external/miniupnpc/connecthostport.c
   cryptonote/external/miniupnpc/igd_desc_parse.c
   cryptonote/external/miniupnpc/minisoap.c
