@@ -1,22 +1,22 @@
-**1. Clone wallet sources
+**1. Clone wallet sources**
 
 ```
 git clone https://github.com/scordite/scorditewallet.git
 ```
 
-**2. Create a git submodule at the same level as src. For example:
+**2. Create a git submodule at the same level as src. For example:**
 
 ```
 git submodule add https://github.com/scordite/scordite.git cryptonote
 ```
 
-**3. Build
+**3. Build**
 
 ```
 mkdir build && cd build && cmake .. && make
 ```
 
-**You can use the scorditewallet for other Cryptonote based currencies:
+**You can use the scorditewallet for other Cryptonote based currencies:**
 
 
 **1. Clone wallet sources**
