@@ -15,7 +15,7 @@ git submodule add https://github.com/scordite/scordite.git cryptonote
 ```
 mkdir build && cd build && cmake .. && make
 ```
-## Done :)
+## Done :) You will find the GUI Wallet in /scorditewallet/build "scordite"
 
 
 *You can use the scorditewallet for other Cryptonote based currencies:*
