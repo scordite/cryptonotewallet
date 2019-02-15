@@ -1,10 +1,10 @@
 **1. Clone wallet sources**
 
 ```
-git clone https://github.com/scordite/scorditewallet.git
+git clone https://github.com/scordite/scorditewallet-gui.git
 ```
 
-**2. Create a git submodule at the same level as src. (scorditewallet folder)**
+**2. Create a git submodule at the same level as src. (scorditewallet-gui folder)**
 
 ```
 git submodule add https://github.com/scordite/scordite.git cryptonote
@@ -15,7 +15,7 @@ git submodule add https://github.com/scordite/scordite.git cryptonote
 ```
 mkdir build && cd build && cmake .. && make
 ```
-## Done :) You will find the GUI Wallet in /scorditewallet/build "scordite"
+## Done :) You will find the GUI Wallet in /scorditewallet-gui/build "scordite"
 
 
 *You can use the scorditewallet for other Cryptonote based currencies:*
@@ -24,7 +24,7 @@ mkdir build && cd build && cmake .. && make
 **1. Clone wallet sources**
 
 ```
-git clone https://github.com/scordite/scorditewallet.git
+git clone https://github.com/scordite/scorditewallet-gui.git
 ```
 Replace URL with git remote repository of your coin.
 
